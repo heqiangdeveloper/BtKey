@@ -58,7 +58,7 @@ public class ConnectFragment extends BaseFragment implements View.OnClickListene
         super.onCreate(savedInstanceState);
         Message msg = new Message();
         msg.what = 1000;
-        mHandler.sendMessageDelayed(msg,7000);
+        mHandler.sendMessageDelayed(msg,6000);
     }
 
     @Override

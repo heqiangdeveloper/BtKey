@@ -83,6 +83,7 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener{
     public void onClick(View view) {
         if(view.getId() == R.id.exit_bt){
             ((MainActivity)mContext).finish();
+            //((MainActivity)(view.getContext())).finish();
             return;
         }
         switch (view.getId()){
