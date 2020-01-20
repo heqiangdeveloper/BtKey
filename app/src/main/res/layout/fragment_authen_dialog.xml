@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/authen_dialog"
+    tools:context="com.chinatsp.btkey.MainActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/warning_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42px"
+            android:textColor="#ffffff"
+            android:text="请获得授权！"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/unAuthen_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未授权"/>
+            <Button
+                android:layout_marginLeft="15dp"
+                android:id="@+id/authened_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="授权"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
